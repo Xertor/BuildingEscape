@@ -30,7 +30,9 @@ private:
 	UPhysicsHandleComponent* PhysicsHandle = nullptr;
 	UInputComponent* InputComponent = nullptr;
 
-	// Ray-cast and what is in reach
+	// Ray-cast and grab what is in reach
 	void Grab();
+	// Called when grab is released
+	void Release();
 
 };
